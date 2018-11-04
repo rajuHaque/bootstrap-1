@@ -1,0 +1,238 @@
+/*body section */
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'poppins', sans-serif;
+	color: #222222e0;
+	position: relative;
+}
+section{
+	margin: 20px;
+}
+
+/*=====navigatin part =========*/
+.navbar{
+padding: 15px;	
+background-color: #e3f2fd;
+
+}
+.navbar-brand{
+	border-style: circle;
+	border: 1px  #1617174d;
+}
+.nav-item{
+	padding: 15px;
+	font-size: 1.2rem;
+	border: 1px  #1617174d;
+}
+.nav-item a{
+	background-color: #fdfce3c7;
+	font-weight: bold;
+	padding-right: 15px;
+    text-shadow: 1px 1px 10px #0000004f;
+	border: 1px  #4e5256ab;
+}
+.nav-link{
+    font-size: 1.1em ;
+
+}
+
+/* ---==== slider Part ===--- */
+#slider img{
+	height: 350px;
+	width: 100%;
+}
+.carousel-caption h5{
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption p{
+	font-size: 200%;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
+}
+.btn-primary {
+	background-color: #33376f;
+	border: 1px solid #33376f;
+}
+.btn-primary: hover{
+	background-color: #563d7c;
+	border: 1px solid #563d7c;
+}
+/* ---==== jumbotorn Part ===--- */
+.jumbotorn{
+	padding: 15px;
+	border-radius: 0;
+}
+.padding{
+   position-bottom: 2rem;	 
+}
+/* ---==== welcome Part ===--- */
+.Welcome{
+	width: 75%;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+/*  Three columns of text below the wellcome text  */
+
+.btn-secondary{
+    color: #fff;
+    background-color: #3c8248ad;
+    border-color: #ffffff;
+    text-shadow: 1px 1px 10px #000;
+    border: 1px solid #33376f;
+}
+.btn-secondary: hover {
+	background-color: #563d7c;;
+	border: 1px solid #563d7c;
+
+}
+/* ---==== START THE FEATURETTES ===--- */
+.featurette-image{
+	width: 500px; 
+	height: 350px;
+	margin: 5px;
+    padding: 0;
+    border: 1px solid #1617175e;
+
+}
+.featurette-image: hover{
+    background-color:#1f024078;
+}
+.featurette{
+	padding: 1.5rem;
+}
+/* ---==== author part===--- */
+#author{
+	padding-top: 25px;
+	padding-bottom: 20px;
+	padding-right: 0;
+	padding-left: 0;
+}
+.card-img-top{
+	padding: 5px;
+	margin-top: 5px;
+}
+.card-footer li{
+	padding-left: 40px;
+	font-weight: bold;
+}
+/* ---==== fixed background ===--- */
+.fixed{
+	height: 70%;
+	width: 100%;
+}
+.fun{
+	width: 100%;
+	margin-bottom: 2rem;
+}
+/* ---==== emoji Part ===--- */
+.gif{
+   max-width: 100%; 
+}
+/* ---==== pricing Part ===--- */
+
+}
+/* ---==== lets talk part===--- */
+
+/* ---==== Social part===--- */
+.social{
+  padding: 3rem;
+  margin-left: 3rem;
+}
+.social a{
+  font-size: 5.5rem;
+  padding: 3rem;
+  font-weight: bolder;  
+}
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-twitter{
+	color: #00aced;
+}
+.fa-linkedin{
+ color: #0e76a8;
+}
+.fa-google-plus{
+	color: #dd4b39;
+}
+.fa-instagram{
+	color: #8a49a1;
+}
+.fa-youtube{
+	color: #bb0000;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-google-plus:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+	color: #d5d5d5;
+}
+/* ---==== Footer Part ===--- */
+footer{
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+}
+hr.light{
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+footer a{
+    color: #d5d5d5;
+}
+hr.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+	/*---Media Queries --*/
+
+
+@media (max-width: 992px) {
+#slider img{
+  	width: 100%;
+  	height: 100%;
+  }
+ .social a{
+  font-size: 4.5rem;
+  padding: 2rem;
+}
+@media (max-width: 768px) {
+  #slider img{
+    width: 70%;
+   height: 60%;
+  }
+  .carousel-caption h5{
+	font-size: 150%;
+	text-shadow: 1px 1px 7px #000;
+	padding-bottom: .2rem;
+}
+.carousel-caption p{
+	font-size: 60%;
+	text-shadow: 1px 1px 5px #000;
+	padding-bottom: 1rem;
+}
+.btn-primary {
+	font-size: 85%;
+}
+.btn-outline{
+	font-size: 85%;
+}
+.display-4{
+	font-size: 200%;
+}
+}
+@media (max-width: 576px) {
+  #slider img{
+  	width: 100%;
+  	height: 100%;
+  }
+}
